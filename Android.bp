@@ -71,6 +71,10 @@ cc_library_static {
         },
     },
 
+    lto: {
+        never: true,
+    },
+
     srcs: [
         "decoder/source/*.cpp",
         "decoder/source/etmv3/*.cpp",
